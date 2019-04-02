@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        // Diretório destino. Não é usado pois o destino é pego da configuração do webpack
+//        "outDir": "./dist/",
+        // Força o desenvolvedor a tipar, desativa o tipo any por padrão
+        "noImplicitAny": true,
+        // Ative o suporte a JSX
+        "jsx": "react",
+        // Conversão para a versão mais nova do JavaScript
+        "target": "esnext",
+        // Permite o uso de importações dinâmicas
+        "module": "esnext",
+        // Permite importar sem o '* as'
+        "allowSyntheticDefaultImports": true,
+        // Formato dos módulos
+        "moduleResolution": "node"
+    }
+//    "include": [
+//        "./src/**/*"
+//    ]
+}
